@@ -30,9 +30,9 @@ pre[class*="language-"] {
 pre[class*="language-"] {
 	position: relative;
 	margin: .5em 0;
-	-webkit-box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
-	-moz-box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
-	box-shadow: -1px 0px 0px 0px #358ccb, 0px 0px 0px 1px #dfdfdf;
+	-webkit-box-shadow: -1px 0px 0px 0px #007AFF, 0px 0px 0px 1px #dfdfdf;
+	-moz-box-shadow: -1px 0px 0px 0px #007AFF, 0px 0px 0px 1px #dfdfdf;
+	box-shadow: -1px 0px 0px 0px #007AFF, 0px 0px 0px 1px #dfdfdf;
 	background-color: #fdfdfd;
 	background-origin: content-box;
 	overflow: visible;
