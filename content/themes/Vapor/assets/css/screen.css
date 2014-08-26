@@ -188,9 +188,9 @@ section.author p.bio {
   line-height: 1.4em;
 }
 blockquote {
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 1.6em;
-  font-weight: 300;
+  font-family: "Proxima nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
   line-height: 1.2em;
   font-style: italic;
   text-transform: uppercase;
@@ -199,12 +199,12 @@ blockquote {
   padding-left: 1em;
 }
 blockquote p {
-  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
-  font-size: 1.6em;
-  font-weight: 300;
+  font-family: "Proxima nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
   line-height: 1.2em;
   font-style: italic;
-  text-transform: uppercase;
+  text-transform: none;
 }
 .post-meta {
   color: #95a5a6;
