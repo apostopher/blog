@@ -50,10 +50,13 @@ config = {
     production: {
         url: 'http://pixels.apostopher.com',
         mail: {
-            service: 'Mailgun',
-            auth: {
-                user: 'postmaster@sandbox79f779b44071480fb5d28cef801fe188.mailgun.org',
-                pass: '832f3206e303c24804c91cc1ea16db02'
+            transport: 'SMTP',
+            options: {
+                service: 'Mailgun',
+                auth: {
+                    user: 'postmaster@sandbox79f779b44071480fb5d28cef801fe188.mailgun.org',
+                    pass: '832f3206e303c24804c91cc1ea16db02'
+                }
             }
         },
         database: {
