@@ -1,0 +1,12 @@
+description "apostopher blog"
+author      "rahul devaskar"
+
+respawn
+respawn limit 10 10
+
+env NODE_ENV=production
+
+script
+    chdir /home/apos/website/blog
+    exec npm start >> /var/log/blog-apostopher.sys.log 2>&1
+end script
