@@ -9,21 +9,21 @@ config = {
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
-        url: 'http://my-ghost-blog.com',
+        url: 'http://pixels.apostopher.com',
 
         // Example mail config
         // Visit http://support.ghost.org/mail for instructions
         // ```
-        //  mail: {
-        //      transport: 'SMTP',
-        //      options: {
-        //          service: 'Mailgun',
-        //          auth: {
-        //              user: '', // mailgun username
-        //              pass: ''  // mailgun password
-        //          }
-        //      }
-        //  },
+        mail: {
+            transport: 'SMTP',
+            options: {
+                service: 'Mailgun',
+                auth: {
+                    user: 'postmaster@sandbox79f779b44071480fb5d28cef801fe188.mailgun.org',
+                    pass: '832f3206e303c24804c91cc1ea16db02'
+                }
+            }
+        },
         // ```
 
         database: {
@@ -48,8 +48,14 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://my-ghost-blog.com',
-        mail: {},
+        url: 'http://pixels.apostopher.com',
+        mail: {
+            service: 'Mailgun',
+            auth: {
+                user: 'postmaster@sandbox79f779b44071480fb5d28cef801fe188.mailgun.org',
+                pass: '832f3206e303c24804c91cc1ea16db02'
+            }
+        },
         database: {
             client: 'sqlite3',
             connection: {
