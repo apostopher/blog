@@ -1,6 +1,9 @@
 description "apostopher blog"
 author      "rahul devaskar"
 
+start on startup
+stop on shutdown
+
 respawn
 respawn limit 10 10
 
