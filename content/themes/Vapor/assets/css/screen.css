@@ -3,7 +3,7 @@
 /* === Core Styles === */
 body {
   background-color: #ffffff;
-  color: #444444;
+  color: #333333;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.6em;
@@ -72,7 +72,7 @@ p code {
   line-height: 1.2em;
 }
 h1 {
-  color: #151515;
+  color: #000000;
   font-family: "Proxima nova", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 36px;
   font-weight: 400;
@@ -128,8 +128,7 @@ h1.blog-title {
   padding: 0;
 }
 h2.blog-description {
-  border-bottom: 1px solid #ecf0f1;
-  border-top: 1px solid #ecf0f1;
+  border-top: 1px solid #dddddd;
   margin-bottom: 2em;
   padding: .5em 1em;
   line-height: 1.2em;
@@ -150,7 +149,7 @@ section.share {
 }
 section.share {
   margin-top: 1em;
-  border-top: 1px solid #ecf0f1;
+  border-top: 1px solid #dddddd;
   padding-top: 1em;
   text-align: right;
 }
@@ -230,7 +229,7 @@ div.authorimage {
 }
 h1.post-title a,
 h1.blog-title a {
-  color: #151515;
+  color: #000000;
   transition: color ease 0.7s;
   -webkit-transition: color ease 0.7s;
 }
@@ -283,13 +282,13 @@ footer section {
 }
 footer.post-footer {
   background: none;
-  border-top: 1px solid #ecf0f1;
+  border-top: 1px solid #dddddd;
   margin-top: 1em;
 }
 /* === Navigation and Pagination === */
 nav {
-  border-bottom: 1px solid #ecf0f1;
-  border-top: 1px solid #ecf0f1;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
   margin-bottom: 2em;
   text-align: center;
   margin: 20px auto 2em auto;
@@ -343,8 +342,8 @@ nav.pagination li:last-child {
   text-align: left;
 }
 a.archive-link {
-  border-bottom: 1px solid #ecf0f1;
-  border-top: 1px solid #ecf0f1;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid #dddddd;
   display: block;
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   font-size: 24px;
@@ -362,7 +361,7 @@ a.archive-link {
   font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
   text-transform: uppercase;
   font-size: 20px;
-  color: #444444;
+  color: #333333;
   text-align: center;
   padding: 0.5em 0;
 }
@@ -481,15 +480,15 @@ table td {
 }
 table thead {
   font-weight: 600;
-  border-bottom: 1px solid #ecf0f1;
+  border-bottom: 1px solid #dddddd;
 }
 table tbody tr:nth-child(even) {
-  background-color: #ecf0f1;
-  border-top: 1px solid #e3e9eb;
-  border-bottom: 1px solid #e3e9eb;
+  background-color: #dddddd;
+  border-top: 1px solid #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
 }
 table tfoot {
-  border-top: 1px solid #ecf0f1;
+  border-top: 1px solid #dddddd;
 }
 /* === Media Queries === */
 @media only screen and (min-width: 320px) and (max-width: 500px) {
